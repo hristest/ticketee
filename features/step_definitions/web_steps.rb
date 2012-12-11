@@ -1,4 +1,4 @@
 
-Then /^I should see "(.*?)"$/ do |arg1|
-  page.has_content?(arg1)
+Then /^I should see "(.*?)"$/ do |content|
+  page.source.should have_content(content)
 end

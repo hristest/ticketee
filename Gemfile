@@ -21,9 +21,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'dynamic_form'
 
 group :test, :development do
   gem 'rspec-rails'
+  gem 'pry'
 end
 
 group :test do
